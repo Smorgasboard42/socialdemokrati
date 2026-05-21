@@ -68,3 +68,11 @@ view-if: peoples_party == 1
 on-arrival: catholics_spd += 6*(1-dissent); resources -= 1
 
 We have increased our campaigning among Catholics.
+
+@everyone
+subtitle: -1 resources
+choose-if:resources >= 1
+unavailable-subtitle: Not enough resources.
+on-arrival: resources -= 1; workers_spd += 30; new_middle_spd += 50; old_middle_spd += 80; rural_spd += 80; unemployed_spd += 60; catholics_spd += 80
+
+Why did we not think of this earlier?
