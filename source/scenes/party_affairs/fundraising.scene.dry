@@ -11,13 +11,13 @@ tags: party_affairs
 
 For better or for worse, the party cannot exist without money.
 
-- @maintain: Maintain our current dues.
+- @maintain: Get 100 dollaridoos.
 - @reduce: Reduce dues.
 - @increase: Increase dues.
 
 @maintain
-subtitle: [+ dues +] resources gained.
-on-arrival: resources += dues;
+subtitle: 100 resources gained.
+on-arrival: resources += 100;
 
 We maintain our current dues.
 
