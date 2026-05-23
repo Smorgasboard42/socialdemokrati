@@ -552,13 +552,13 @@ table {
     fill: #32A532;
 }
 .seat.bvp {
-    fill: #1E69AA;
+    fill: #090909;
 }
 .seat.dvp {
-    fill: #7DBEE1;
+    fill: #1E69AA;
 }
 .seat.other {
-    fill: #606060;
+    fill: #7DBEE1;
 }
 .seat.dnvp {
     fill: #331D79;
